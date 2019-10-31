@@ -5,12 +5,17 @@ import tensorflow as tf
 import random
 import json
 #def if __name__ == '__main__':
-while true:
-    print('chat# ')
-    x = input()
-    sep = x.split(" ")
-    print("type# ")
-    t = input()
+def main:
+    while true:
+        print('chat# ')
+        x = input()
+        sep = x.split(" ")
+        print("type# ")
+        t = input()
+        print("property ")
+        p = input()
+        print("linked ")
+        l = input()
 def model():
     with open('intents.json') as json_data:
         intents = json.load(json_data)
