@@ -4,9 +4,9 @@ import tflearn
 import tensorflow as tf
 import random
 import json
-#def if __name__ == '__main__':
-def main:
-    while true:
+
+def main():
+    while True:
         print('chat# ')
         x = input()
         sep = x.split(" ")
@@ -16,6 +16,7 @@ def main:
         p = input()
         print("linked ")
         l = input()
+main()
 def model():
     with open('intents.json') as json_data:
         intents = json.load(json_data)
