@@ -3,11 +3,13 @@ import numpy as np
 import tflearn
 import tensorflow as tf
 import random
+import fileinput
 import json
 
 def main():
+
     while True:
-        print('chat# ')
+        print('function-name# ')
         x = input()
         sep = x.split(" ")
         print("type# ")
@@ -16,6 +18,7 @@ def main():
         p = input()
         print("linked ")
         l = input()
+        fo = open(x+".dat", "w")
 main()
 def model():
     with open('intents.json') as json_data:

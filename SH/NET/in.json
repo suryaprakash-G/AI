@@ -8,13 +8,17 @@
          "patterns": ["Bye", "See you later", "Goodbye"],
          "responses": ["See you later, take care", "Have a nice day", "Bye! Come back again soon."]
         },
-        {"tag": "thanks",
-         "patterns": ["Thanks", "Thank you", "That's helpful"],
-         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        {"tag": "respond",
+         "patterns": ["ok?", "do ", "dont do "],
+         "responses": ["ok", "`right", "fine"]
+        },
+        {"tag": "link",
+         "patterns": ["its ", "it does ", "it cant "],
+         "responses": ["ok", "`right", "fine"]
         },
         {"tag": "question",
          "patterns": ["what's your name","who are you?", "are you gona destroy world?" ],
-         "responses": ["my name is shell","i'm an artifichial intelligence",""]
+         "responses": ["my name is shell","i'm an artifichial intelligence","nope"]
         }
    ]
 }
