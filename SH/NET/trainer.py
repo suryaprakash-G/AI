@@ -1,6 +1,6 @@
 
 import numpy as np
-import tflearn
+#import tflearn
 import tensorflow as tf
 import random
 import fileinput
@@ -19,6 +19,7 @@ def main():
         print("linked ")
         l = input()
         fo = open(x+".dat", "w")
+        fo.write("t-"+t+"\np-"+p+"\nl-"+l);
 main()
 def model():
     with open('intents.json') as json_data:
