@@ -20,6 +20,7 @@ def main():
         l = input()
         fo = open(x+".dat", "w")
         fo.write("t-"+t+"\np-"+p+"\nl-"+l);
+        fo.close();
 main()
 def model():
     with open('intents.json') as json_data:
