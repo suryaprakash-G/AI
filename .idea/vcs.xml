@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chainer-pix2pix" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ref/chainer-pix2pix" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ref/pix2pix-tensorflow" vcs="Git" />
+  </component>
+</project>
