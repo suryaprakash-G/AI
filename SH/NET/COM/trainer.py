@@ -7,7 +7,7 @@ import fileinput
 import json
 
 def main():
-
+    fo = open("train" + ".dat", "w")
     while True:
         print('function-name# ')
         x = input()
@@ -18,9 +18,8 @@ def main():
         p = input()
         print("linked ")
         l = input()
-        fo = open(x+".dat", "w")
         fo.write("t-"+t+"\np-"+p+"\nl-"+l);
-        fo.close();
+    fo.close();
 main()
 def model():
     with open('intents.json') as json_data:
